@@ -1,0 +1,119 @@
+.mg-b-30{
+  margin-bottom: 30px;
+}
+.mg-t-20 {
+  margin-top: 20px;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+}
+
+.table-header .az-header-events-center {
+  flex: 1 1;
+  margin: 0 0 0 2em;
+  position: relative;
+}
+
+.az-header-events-center .form-control {
+  border-color: #e9ecef;
+  border: 2px solid rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #fcfcfc;
+  transition: none;
+  height: 40px;
+  width: 100%;
+}
+
+.az-header-events-center .btn {
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: initial;
+  height: 40px;
+  color: #ced4da;
+  -webkit-transition: none;
+  transition: none;
+  font-size: 16px;
+  padding-right: 13px;
+}
+
+
+.table-paginate{
+  display: flex;
+  align-items: center;
+}
+
+.table-paginate .table-paginate-results{
+  flex: 1;
+}
+
+.table-paginate .table-paginate-buttons button{
+  background: var(--secondary);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 2px;
+  padding: 3px;
+  text-align: center;
+  transition: 400ms;
+  width: 22px;
+}
+
+.table-paginate .table-paginate-buttons button.selected{
+  background: var(--primary) !important;
+}
+
+.table-paginate .table-paginate-buttons button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.table-paginate .table-paginate-buttons button:focus{
+  outline: none;
+}
+
+.table-header{
+  display: flex;
+  align-items: center;
+}
+
+.table-header .az-header-events-center{
+  flex: 1;
+  margin: 0;
+  margin-left: 2em;
+}
+.table-header .table-paginate-settings{
+  align-items: center;
+  display: flex;
+}
+.table-header .table-paginate-settings select{
+  background-color: #fcfcfc;
+  border-color: #e9ecef;
+  border-radius: 0;
+  border-width: 2px;
+  height: 40px;
+  margin-right: 10px;
+}
+.table-header  .table-paginate-settings span{
+  display: inline-block;
+  font-size: 11px;
+  max-width: 6em;
+}
+
+.table-no-data-messge{
+  margin-top: 5em;
+  padding: 1em;
+}
+
+.table-responsive .table{
+  width: 100%;
+}
+
+.table-responsive .table tbody tr td{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
