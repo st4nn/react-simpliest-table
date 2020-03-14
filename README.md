@@ -1,6 +1,6 @@
 ## react-simpliest-table
 
-React Simpliest Table is a [reac](https://github.com/facebook/react) table filterable, sortable, and pagination. Was prepared under [Bootstrap](https://getbootstrap.com/) styles.
+React Simpliest Table is a [react](https://github.com/facebook/react) table filterable, sortable, and pagination. Was prepared under [Bootstrap](https://getbootstrap.com/) styles.
 
 This React component was inspired by the [DataTables.net](https://datatables.net/) plugin.
 
@@ -162,6 +162,10 @@ If you want to change it, here there is an example:
             "filter": "Put your filter here"
         }
 ```
+
+### Demo
+
+You can see an example [here](https://github.com/st4nn/react-simpliest-table/tree/master/example)
 
 ### License
 
