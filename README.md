@@ -165,7 +165,7 @@ If you want to change it, here there is an example:
 
 ### Demo
 
-You can see an example [here](https://github.com/st4nn/react-simpliest-table/tree/master/example)
+You can see an example [here](https://github.com/st4nn/react-simpliest-table/blob/master/example/src/App.js)
 
 ### License
 
