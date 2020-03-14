@@ -1,0 +1,23 @@
+{
+  "name": "com.jh.react-table",
+  "version": "1.0.0",
+  "description": "Custom table for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/st4nn/react-table.git"
+  },
+  "keywords": [
+    "REACTJS",
+    "TABLE"
+  ],
+  "author": "Jhonathan Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st4nn/react-table/issues"
+  },
+  "homepage": "https://github.com/st4nn/react-table#readme"
+}
