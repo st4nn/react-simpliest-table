@@ -164,9 +164,13 @@ If you want to change it, here there is an example:
         }
 ```
 
-### Demo
+### Live Demo
 
-You can see an example [here](https://github.com/st4nn/react-simpliest-table/blob/master/example/src/App.js)
+You can see the Live demo [here](https://st4nn.github.io/react-simpliest-table/)
+
+### Examples
+
+You can see some examples [here](https://github.com/st4nn/react-simpliest-table/tree/master/example/src)
 
 ### License
 
