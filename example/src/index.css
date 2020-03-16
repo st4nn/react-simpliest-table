@@ -1,4 +1,6 @@
 body {
+  background-color: #eeeeee;
+  color: rgba(0, 0, 0, 0.47);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: rgba(0, 0, 0, 0.57); 
+}
+
+.table-header,
+.table-responsive,
+.table-paginate{
+  color: #333333;
+}
+
+:root{
+  --primary: #333333;
+  --secondary: rgba(0, 0, 0, 0.47);
 }

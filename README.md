@@ -126,21 +126,22 @@ In this case, the table will be sorted by the _my_title_index_ in the _list obje
 
 #### Custom labels
 
-Is a Json object with the labels description, by default the labels is in spanish, so you should be change it by your own language.
+Is a Json object with the labels description, by default the labels is in english, so you should be change it by your own language.
 
 The default object is:
 
 ```javascript
+
 {
-    "all": "Todos",
-    "records_per_page": "registros por página",
-    "showing": "Mostrando",
-    "to": "a",
-    "of": "de",
-    "rows": "filas",
-    "no_data": "No hay registros aún,",
-    "no_data_filtered": "Ningún valor coincide con tu filtro",
-    "filter": "Filtro,"
+    "all": "All",
+    "records_per_page": "Records per page",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "rows": "rows",
+    "no_data": "No records yet,",
+    "no_data_filtered": "No value matches your filter",
+    "filter": "Filter",
 }
 ````
 
@@ -151,15 +152,15 @@ If you want to change it, here there is an example:
         list={list}
         filterFunction={record => record.name + " " record.second_columns}
         labels={
-            "all": "Show all records",
-            "records_per_page": "Records by page",
-            "showing": "Is showing",
-            "to": "to",
-            "of": "of",
-            "rows": "records",
-            "no_data": "You need to download some records",
-            "no_data_filtered": "No filtered coincidences",
-            "filter": "Put your filter here"
+            "all": "Mostrar todos",
+            "records_per_page": "Registros por página",
+            "showing": "Está mostrando",
+            "to": "a",
+            "of": "de",
+            "rows": "filas",
+            "no_data": "Tu listado está vacío",
+            "no_data_filtered": "Sin coincidencias filtradas",
+            "filter": "Pon tu filtro aquí"
         }
 ```
 

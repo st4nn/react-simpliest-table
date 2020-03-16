@@ -14,7 +14,7 @@ const propTypes = {
     fields: PropTypes.array.isRequired,
     defaultSorter: PropTypes.object,
     defaultMaxRecordPerPage: PropTypes.number,
-    labels: PropTypes.array.isRequired
+    labels: PropTypes.objects
 };
 
 function useSeachResults(results, filterFunction) {
@@ -44,15 +44,15 @@ const Table = ({
     }) => {
 
     const language = {
-        "all": "Todos",
-        "records_per_page": "registros por página",
-        "showing": "Mostrando",
-        "to": "a",
-        "of": "de",
-        "rows": "filas",
-        "no_data": "No hay registros aún,",
-        "no_data_filtered": "Ningún valor coincide con tu filtro",
-        "filter": "Filtro,",
+        "all": "All",
+        "records_per_page": "Records per page",
+        "showing": "Showing",
+        "to": "to",
+        "of": "of",
+        "rows": "rows",
+        "no_data": "No records yet,",
+        "no_data_filtered": "No value matches your filter",
+        "filter": "Filter",
         ...labels
     };
 
