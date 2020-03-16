@@ -4,3 +4,4 @@ test
 .babelrc
 webpack.config.js
 example
+docs
